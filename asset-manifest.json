@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/shada-app/static/css/main.70c55181.css",
+    "main.js": "/shada-app/static/js/main.5bd57912.js",
+    "static/media/ذهبي.png": "/shada-app/static/media/ذهبي.f7ae037cdf9f2c3fdd6a.png",
+    "static/media/بلاتينيوم.png": "/shada-app/static/media/بلاتينيوم.c2b72969470259d5a5f1.png",
+    "static/media/برونزي.png": "/shada-app/static/media/برونزي.56406a6d576233646b3c.png",
+    "static/media/فضي.png": "/shada-app/static/media/فضي.3be54c90889b4f5497f5.png",
+    "static/media/jpg": "/shada-app/static/media/5881775159038296687.591c142af321f69e8e0a.jpg",
+    "static/media/logo.png": "/shada-app/static/media/logo.ef064e78a96ae50d4d9f.png",
+    "static/media/logo1.png": "/shada-app/static/media/logo1.66cd86f0ef3f44cf4a8b.png",
+    "static/media/sad emoji.gif": "/shada-app/static/media/sad emoji.4b5472f14025469a16d7.gif",
+    "static/media/person1.jpg": "/shada-app/static/media/person1.099f0dcb2d7f1c90edbb.jpg",
+    "static/media/person3.jpg": "/shada-app/static/media/person3.f5f7219b67daad307b64.jpg",
+    "static/media/vecteezy_muslim-girl-in-black-hijab_36001923.jpg": "/shada-app/static/media/vecteezy_muslim-girl-in-black-hijab_36001923.7d7f245d5a0647cab6c3.jpg",
+    "static/media/footer-background.avif": "/shada-app/static/media/footer-background.d025f458ac691ab6e8fa.avif",
+    "static/media/person4.jpg": "/shada-app/static/media/person4.8aa3ce4bd52d898b1d73.jpg",
+    "static/media/person2.jpg": "/shada-app/static/media/person2.a58e293d619efebd1497.jpg",
+    "static/media/HD-Blank-Wallpaper.jpg": "/shada-app/static/media/HD-Blank-Wallpaper.5e0b9ee218f7a98fffde.jpg",
+    "static/media/image.png": "/shada-app/static/media/image.3b63c3557eab9f0afe7b.png",
+    "static/media/doctors2.png": "/shada-app/static/media/doctors2.28b715ac409409acbb81.png",
+    "index.html": "/shada-app/index.html",
+    "main.70c55181.css.map": "/shada-app/static/css/main.70c55181.css.map",
+    "main.5bd57912.js.map": "/shada-app/static/js/main.5bd57912.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70c55181.css",
+    "static/js/main.5bd57912.js"
+  ]
+}
