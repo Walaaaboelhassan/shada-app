@@ -1,0 +1,98 @@
+.errorSection {
+    background: white;
+    margin-top: 100px;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20px
+}
+
+.error span {
+    color: var(--main-color);
+    font-size: 180px;
+    font-weight: 800;
+    letter-spacing: 43px;
+    position: relative;
+    height: 250px;
+    width: 434px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.error span strong {
+    background: url('../../images/sad\ emoji.gif');
+    background-size: cover;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 166px;
+    top: 59px;
+}
+
+.error h2 {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 30px;
+    width: 552px;
+    text-align: center;
+    padding: 0 14px;
+    margin: -17px 0 24px;
+}
+
+.error p {
+    width: 552px;
+    text-align: center;
+    font-size: 16px;
+    color: #717171;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.error .buttons {
+    margin: 27px;
+}
+
+.error .buttons a {
+    background-color: var(--main-color);
+    text-decoration: none;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 8px;
+    margin-right: 4px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.error .buttons a:hover {
+    transition: .5s;
+    opacity: .8;
+}
+
+@media (max-width: 700px) {
+    .error span {
+        font-size: 122px;
+        width: 300px;
+    }
+
+    .error :is(h2, p, span) {
+        width: 90%;
+    }
+
+    .error h2 {
+        font-size: 25px;
+    }
+
+    .error span strong {
+        width: 101px;
+        height: 100px;
+        right: 121px;
+        top: 77px;
+    }
+
+
+}

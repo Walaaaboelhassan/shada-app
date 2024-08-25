@@ -1,0 +1,55 @@
+.small-title {
+    margin: 35px auto;
+    position: relative;
+    width: max-content;
+}
+
+.small-title::after,
+.small-title::before {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    left: 0;
+}
+
+.small-title::after {
+    border-bottom: 6px solid var(--main-color);
+    bottom: 0;
+}
+
+.small-title::before {
+    border-top: 6px solid var(--main-color);
+    top: 0;
+}
+
+.small-title span {
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: var(--main-color);
+    position: absolute;
+}
+
+.small-title span:first-of-type {
+    left: -35px;
+}
+
+.small-title span:last-of-type {
+    right: -35px;
+}
+
+.small-title h1 {
+    font-size: 29px;
+    color: var(--main-color);
+    margin: 10px 0;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .small-title h1 {
+        font-size: 25px;
+    }
+}

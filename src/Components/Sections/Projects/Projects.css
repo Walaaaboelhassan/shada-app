@@ -1,0 +1,140 @@
+.projects {}
+
+.projects .all-projects {
+    margin: 50px 0;
+}
+
+.projects .all-projects .project {
+    width: calc(100% / 4);
+    height: max-content;
+    border: 5px solid var(--main-color);
+    overflow: hidden;
+    transition: .3s;
+    text-align: center;
+    padding: 5px;
+}
+
+.projects .all-projects .project .project-name {
+    position: relative;
+    right: 5px;
+    padding: 3px 8px;
+    top: 10px;
+    left: 50%;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.projects .all-projects .project .image {
+    width: 100%;
+    height: 120px;
+}
+
+.projects .all-projects .project .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projects .all-projects .project .btn {
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    margin: 12px auto;
+    color: white;
+    border-radius: 10px;
+}
+
+.projects .all-projects .project .description:hover {
+    opacity: .8;
+}
+
+.projects .all-projects .popup {
+    z-index: 99999999;
+
+}
+
+.projects .all-projects .popup .cover {
+    position: fixed;
+    background-color: #00000063;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+.projects .all-projects .popup .details {
+    overflow-x: auto;
+    background-color: aliceblue;
+    z-index: 9922345999999;
+    position: fixed;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%);
+    width: 60%;
+    height: 86%;
+    text-align: end;
+    padding: 0 50px;
+    border-radius: 15px;
+}
+
+.projects .all-projects .popup .details h1 {
+    font-size: 45px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.projects .all-projects .popup .details .about-project h3 {
+    font-size: 25px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    border-right: dotted;
+    padding-right: 10px;
+    color: var(--main-color);
+}
+
+.projects .all-projects .popup .details .about-project p {}
+
+.projects .all-projects .popup .details .goals {
+    margin-top: 34px;
+}
+
+.projects .all-projects .popup .details .goals ol {
+    line-height: 2.5;
+    padding-right: 30px;
+}
+
+.projects .all-projects .popup .details .goals ol li {
+    position: relative;
+}
+
+.projects .all-projects .popup .details .goals ol li::after {
+    content: '';
+    position: absolute;
+    border-width: 9px;
+    border-color: transparent #9E9E9E transparent transparent;
+    border-style: solid;
+    top: 50%;
+    transform: translateY(-34%);
+    right: -22px;
+}
+
+@media(max-width: 768px) {
+    .projects .all-projects .popup .details {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .projects .all-projects .popup .details .financial img {
+        width: 100%;
+        height: 184px;
+        object-fit: cover;
+    }
+
+    .projects .all-projects .project {
+        height: 230px;
+    }
+
+    .projects .all-projects .project .project-name {
+        font-size: 15px;
+    }
+}

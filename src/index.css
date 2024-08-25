@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&family=Inter:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --main-color: #a04028;
+    --secondary-color: #9d422b;
+    --second-color: #b9583ae8;
+    --background-header-color: #80808014;
+    --text-color: #dccbbc;
+}
+
+img.circle,
+img.plus,
+img.lines,
+.subscribe .lines {
+    position: absolute;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lalezar", system-ui !important;
+    font-weight: 400 !important;
+}
+
+p,
+span {
+    font-family: "Rubik", sans-serif !important;
+}
+
+img.circle {
+    width: 80px;
+    left: 10px;
+    animation: 4s circle infinite;
+}
+
+img.lines {
+    width: 100px;
+    top: -26px;
+    animation: 4s line ease-in infinite;
+}
+
+img.plus {
+    width: 80px;
+    right: 19px;
+    top: 54px;
+    animation: 4s plus ease-in infinite;
+}
+
+@keyframes circle {
+    from {
+        top: 5px;
+    }
+
+    25% {
+        top: 8px;
+    }
+
+    50% {
+        top: 14px;
+    }
+
+    75% {
+        top: 8px;
+    }
+
+    to {
+        top: 5px;
+    }
+}
+
+@keyframes plus {
+    from {
+        transform: rotate(0);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes line {
+    from {
+        left: 54px;
+    }
+
+    25% {
+        left: 58px;
+    }
+
+    50% {
+        left: 64px;
+    }
+
+    75% {
+        left: 58px;
+    }
+
+    to {
+        left: 54px;
+    }
+}
+
+.sections {
+    background: #cccccc3d;
+}
+
+.not {
+    width: 40%;
+    background: var(--main-color);
+    padding: 15px;
+    margin: auto;
+}
+
+.not p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media(max-width:556px) {
+    .not {
+        width: 90%;
+    }
+
+    .not p {
+        font-size: 25px;
+    }
+}

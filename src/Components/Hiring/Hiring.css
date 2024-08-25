@@ -1,0 +1,89 @@
+.hiring {
+    padding: 0 0 50px 0;
+}
+
+.hiring .form {
+    background-color: white;
+    width: 712px;
+    justify-items: center;
+    margin: auto;
+    padding: 20px 30px 25px;
+    border-radius: 15px;
+
+}
+
+.hiring .form form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+
+.hiring .form img {
+    width: 200px;
+    height: 160px;
+    margin: auto;
+    object-fit: cover;
+}
+
+.hiring .form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 500 !important;
+    font-family: system-ui !important;
+}
+
+.hiring .form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hiring .form fieldset input {
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    height: 48px;
+    width: 315px;
+    text-align: end;
+    font-size: 14px;
+}
+
+fieldset.status-gender {
+    width: 100%;
+    align-items: end;
+    padding-right: 13px;
+}
+
+fieldset.status-gender>label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #4c4c4c;
+}
+
+.hiring .form fieldset.gender label,
+.hiring .form fieldset.status label {
+    font-size: 14px;
+    color: black;
+}
+
+.hiring .form fieldset.gender,
+.hiring .form fieldset.status {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hiring .form fieldset fieldset {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hiring .form fieldset input[type="radio"] {
+    width: 12px;
+    height: 12px;
+}

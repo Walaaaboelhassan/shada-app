@@ -1,0 +1,53 @@
+.activities {}
+
+.activities .all-activities {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 65px;
+    padding-bottom: 60px;
+}
+
+.activities .all-activities .activity {
+    background-color: var(--secondary-color);
+    padding: 15px;
+    text-align: end;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.activities .all-activities .activity p {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.activities .all-activities .activity .image {
+    position: absolute;
+    width: 100%;
+    height: 327px;
+    left: 0;
+    background: #ffffff;
+    top: 60px;
+}
+
+.activities .all-activities .activity .image img {
+    width: 90%;
+    height: 296px;
+    margin: 13px auto;
+}
+
+@media (max-width: 768px) {
+    .activities .all-activities {
+        grid-template-columns: 100%;
+        margin: 65px;
+    }
+
+    .activities .all-activities .activity p {
+
+        font-size: 16px;
+    }
+}

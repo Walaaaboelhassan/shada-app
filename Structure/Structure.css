@@ -1,0 +1,97 @@
+.structure {
+    padding: 100px 50px;
+    background: url('../../images/Picture6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.structure .cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #9e9e9ebd;
+}
+
+.structure .top-side {
+    width: max-content;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+
+.structure .branch-title {
+    font-size: 23px;
+}
+
+.structure .branch-title b {
+    color: var(--main-color);
+}
+
+.structure .top-side p {
+    width: 400px;
+}
+
+.structure .bottom-side {
+    margin-top: 50px;
+}
+
+.structure .purpose {
+    margin: 70px 0;
+    position: relative;
+}
+
+.structure .purpose .aspect {}
+
+.structure .purpose .aspect .box {
+    background-color: var(--main-color);
+    padding: 20px;
+    width: 300px;
+    margin: 5px 0;
+}
+
+.structure .purpose .aspect .box p {
+    color: white;
+}
+
+.structure .infos {}
+
+.structure .infos span {
+    font-size: 20px;
+    border-bottom: 3px solid;
+    padding: 7px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.structure .infos p {
+    margin-top: 16px;
+    width: 350px;
+}
+
+@media (max-width: 768px) {
+
+    .structure .purpose {
+        flex-direction: column-reverse !important;
+    }
+
+    .structure .infos {
+        align-items: center !important;
+    }
+
+    .structure .infos p {
+        text-align: center !important;
+    }
+
+    .structure .top-side p {
+        width: 300px;
+    }
+}
+
+@media (max-width: 990px) {
+    .structure .top-side {
+        margin: auto !important;
+    }
+}
